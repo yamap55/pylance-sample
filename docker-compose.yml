@@ -1,0 +1,14 @@
+version: "3"
+services:
+  pylance-sample:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        WORKDIR: /project
+    volumes:
+      - .:/project
+      - ${USERPROFILE-~}/.ssh:/home/vscode/.ssh
+    image: pylance-sample-image
+    container_name: pylance-sample-container
+    tty: true
