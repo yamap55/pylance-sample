@@ -2,7 +2,13 @@
 
 ## 本リポジトリについて
 
-Pylanceを紹介するための参考リポジトリ
+- Pylanceを紹介するための参考リポジトリ
+- devcontainerで下記のフォルダを起動するとPylanceが入った環境、入っていない環境で起動する
+- linterなどは入っていない
+- exists_pylance
+  - Pylanceが入っている環境
+- not_exists_pylance
+  - Pylanceが入っていない環境
 
 ## Pylanceとは
 

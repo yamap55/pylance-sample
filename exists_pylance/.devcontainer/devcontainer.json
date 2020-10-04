@@ -2,7 +2,9 @@
 {
   "name": "pylance-sample",
   // Use docker-compose.extend.yml to run a command that keeps the container running.
-  "dockerComposeFile": ["../docker-compose.yml"],
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
   "service": "pylance-sample",
   "workspaceFolder": "/project",
   "shutdownAction": "stopCompose",
@@ -15,6 +17,8 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "terminal.integrated.shell.linux": "/bin/bash",
+    "python.linting.enabled": false,
+    "python.formatting.provider": "none",
     "python.pythonPath": "/usr/local/bin/python",
     "python.analysis.diagnosticMode": "workspace",
     "python.jediEnabled": false,
