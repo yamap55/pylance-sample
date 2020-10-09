@@ -21,8 +21,12 @@
     "python.formatting.provider": "none",
     "python.pythonPath": "/usr/local/bin/python",
     "python.analysis.diagnosticMode": "workspace",
-    "python.jediEnabled": false,
     "python.languageServer": "Jedi",
+    // "python.languageServer": "Pylance",
+    // "python.analysis.typeCheckingMode": "basic",
+    // "vsintellicode.python.completionsEnabled": true,
+    // "vsintellicode.features.python.deepLearning": "enabled",
+    // "vsintellicode.modify.editor.suggestSelection": "enabled",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
