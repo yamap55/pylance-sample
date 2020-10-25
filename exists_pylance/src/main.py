@@ -1,18 +1,29 @@
 import functools
 
+from flask import Flask
 
-def hoge(s: str, i: int, l: List[str]) -> None:
-    # 1. Listをインポート（ctrl + .）
-    # 2. sysをインポート（sys.exit()）
-    # 3. randomをインポート
-    # 4. randomの候補（Intellicode）
+app = Flask(__name__)
+
+# 1. ↓をタイプ（pylance「なし」から）
+# 2. docstringの確認
+# @app.route('/')
+def func():
     pass
 
+def hoge(s: str, i: int, l: List[str]) -> None:
+    """hoge 関数です"""
+    # 3. Listをインポート（ctrl + .）
+    # 4. sysをインポート（sys.exit()）
+    # 5. randomをインポート
+    # 6. randomの候補（Intellicode）
+    pass
 
-# 5. 型のエラー
-hoge(1, 2, 3)
+hoge('a', 1, 1)
+
+# 7. 型のエラー
+hoge('1', 2, 3)
 
 
-# 6. 警告出してくれる
-# 7. 型を自分で設定すると補完してくれる
+# 8. 警告出してくれる
+# 9. 型を自分で設定すると補完してくれる
 a: str = huga()

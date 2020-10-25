@@ -21,6 +21,7 @@
     "python.formatting.provider": "none",
     "python.pythonPath": "/usr/local/bin/python",
     "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.extraPaths": ["/home/vscode/.local/lib/python3.8/site-packages"],
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
     "vsintellicode.python.completionsEnabled": true,
